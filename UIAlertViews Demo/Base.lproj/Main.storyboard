@@ -45,6 +45,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oR8-Nw-Cni">
                                 <rect key="frame" x="20" y="240.33333333333334" width="374" height="30.000000000000028"/>
                                 <state key="normal" title="Click to Demo Alert View"/>
+                                <connections>
+                                    <action selector="showAlertBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cDj-CT-dHp"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alert Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="948-NE-9X6">
                                 <rect key="frame" x="20" y="296.33333333333331" width="374" height="21"/>
@@ -73,6 +76,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="alertMessageLbl" destination="948-NE-9X6" id="5Gb-Lz-tdL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

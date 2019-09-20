@@ -9,12 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var alertMessageLbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
       
+        // Alert message hidden until Alert called
+        alertMessageLbl.isHidden = true
     }
 
-
+    @IBAction func showAlertBtn(_ sender: Any) {
+        
+        
+        
+        
+    }
+    
 }
 
