@@ -1,6 +1,8 @@
 # SwiftUIAlertViewsDemo
 Swift - Swift UIAlertViews Demo - Demo 17 of 30
 
+App created in Xcode 10.3 (10G8) using Swift 4.2, iOS Deployment Target 12.4 and tested on a iPhone Xr Emulator
+
 In this demo app we demonstrate how to code swift UIAlertViews.
 
 There are so many interesting things within swift. This demo shows one way to use UIAlertViews in an app.
